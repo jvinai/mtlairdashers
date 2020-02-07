@@ -3,6 +3,7 @@
 	float: left;
 	padding: 10px;
 }
-.row{
-	display: table;
+
+body {
+  background-color: #121212 !important;
 }

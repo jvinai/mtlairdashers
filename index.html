@@ -1,22 +1,105 @@
 <link rel="stylesheet" href="styles.css">
 <head>
 <title>Montreal Airdashers</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+
+  <link href="styles.css" rel="stylesheet">
+  <link href="theme.css" rel="stylesheet">
+	
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Montreal Airdashers Homepage</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#rankings">Rankings</a>
+          </li>
 
-<h1>Montreal Airdashers Homepage</h1>
-<img src="MontrealTamashii-Final_2013.png"></img>
-<h2>Rankings</h2>
-<div class="row">
-	<div class="ranking">
-		<img src="DBFZ_Logo.png" width="100%"></img>
-		<iframe width='100%' height='600px' frameborder='0'  allowfullscreen src='https://braacket.com/league/mtldbfz/ranking/84E2A8FB-F2BD-450B-8A4C-0E60EE2E9F19?rows=10&cols=&page=1&page_cols=1&country=&search=&embed=1'></iframe>
-	</div>
-	<div class="ranking">
-		<img src="sc6_logo.png" width="100%"></img>
-		<iframe width='100%' height='600px' frameborder='0'  allowfullscreen src='https://braacket.com/league/mtlsc6/ranking/3738E453-1284-4C79-8C57-85C0DDE5D3F4?rows=20&cols=&page=1&page_cols=1&game_character=&country=&search=&embed=1'></iframe>
-	</div>
-</div>
-<br><br>
-<h2>Upcoming Events</h2>
+					<li class="nav-item">
+            <a class="nav-link" href="#events">Upcoming Events</a>
+          </li>					
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+	<header class="masthead">
+    <div class="container"></div>
+  </header>
+
+	<section class="page-section" id="rankings">
+		<div class="container">
+			<div class="row">
+				<h2 class="section-heading">Rankings</h2>
+				</div>
+				<div class="row">
+					<div class="ranking col-md-4">
+					<div class="img-container">
+						<img src="DBFZ_Logo.png"></img>
+					</div>
+						<iframe frameborder='0' allowfullscreen
+							src='https://braacket.com/league/mtldbfz/ranking/84E2A8FB-F2BD-450B-8A4C-0E60EE2E9F19?rows=10&cols=&page=1&page_cols=1&country=&search=&embed=1'>
+						</iframe>
+					</div>
+					<div class="ranking col-md-4">
+						<div class="img-container">
+							<img src="sc6_logo.png"></img>
+						</div>
+						<iframe frameborder='0' allowfullscreen
+							src='https://braacket.com/league/mtlsc6/ranking/3738E453-1284-4C79-8C57-85C0DDE5D3F4?rows=20&cols=&page=1&page_cols=1&game_character=&country=&search=&embed=1'>
+						</iframe>
+					</div>
+					<div class="ranking col-md-4">
+						<div class="img-container">
+							<img src="tekken7_logo.png"></img>
+						</div>
+						<iframe frameborder='0' allowfullscreen
+							src='https://braacket.com/league/mtltekken7/ranking/131CAD1A-F078-4CE0-A0DB-6AFE25F58823?rows=20&cols=&page=1&page_cols=1&game_character=&country=&search=&embed=1'>
+						</iframe>
+					</div>
+					<div class="ranking col-md-4">
+						<div class="img-container">
+							<img src="bbtag_logo.png"></img>
+						</div>
+						<iframe frameborder='0' allowfullscreen
+							src='https://braacket.com/league/mtlbbtag/ranking/4BED283D-5D37-467C-B1A5-A3B24A7D2469?rows=20&cols=&page=1&page_cols=1&country=&search=&embed=1'>
+						</iframe>
+					</div>
+					<div class="ranking col-md-4">
+						<div class="img-container">
+							<img src="unist_logo.png"></img>
+						</div>
+						<iframe frameborder='0' allowfullscreen
+							src='https://braacket.com/league/mtlunist/ranking/8BAFDC80-2DD6-4980-A59A-107B8224F1C1?rows=20&cols=&page=1&page_cols=1&country=&search=&embed=1'>
+						</iframe>
+					</div>
+					<div class="ranking col-md-4">
+						<div class="img-container">
+							<img src="ggxrd_logo.png"></img>
+						</div>
+						<iframe frameborder='0' allowfullscreen
+							src='https://braacket.com/league/mtlxrd/ranking/5A65FCD4-B75F-4E14-A523-5EE8581B0080?rows=20&cols=&page=1&page_cols=1&game_character=&country=&search=&embed=1'>
+						</iframe>
+					</div>
+			</div>
+		</div>
+	</section>
+	<section class="page-section" id="events">
+		<div class="container">
+			<div class="row">
+				<h2 class="section-heading">Upcoming Events</h2>
+			</div>
+		</div>
+	</section>
 </body>
