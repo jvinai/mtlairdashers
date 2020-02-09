@@ -180,3 +180,8 @@ nav .navbar-nav .nav-item .nav-link.active, nav .navbar-nav .nav-item .nav-link:
     padding: 12px 0;
   }
 }
+
+#calendar-iframe {
+  width: 100%;
+  height: 800px;
+}
